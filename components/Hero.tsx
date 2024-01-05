@@ -28,9 +28,10 @@ const Hero = () => {
       <div className="hero__image-container">
         <div className="hero__image">
           <Image
+            fill
             src={heroImage}
             alt="Hero-Image"
-            fill
+            placeholder="empty"
             className="object-contain"
           />
         </div>
